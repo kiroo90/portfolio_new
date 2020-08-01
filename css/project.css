@@ -1,0 +1,104 @@
+/* 모바일 iPhone 5/SE 기준 작업 */
+
+/* 프로젝트_01 제노코 */
+.project_conteiner {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.genohco {
+    background: url(../img/m_project_01.jpg) 50% 0% no-repeat;
+    background-size: cover;
+}
+
+.sotonghotline {
+    background: url(../img/m_project_02.jpg) 50% 0% no-repeat;
+    background-size: cover;
+}
+
+.vibe {
+    background: url(../img/m_project_03.jpg) 50% 0% no-repeat;
+    background-size: cover;
+}
+
+.mibs {
+    background: url(../img/m_project_04.jpg) 50% 0% no-repeat;
+    background-size: cover;
+}
+
+.black_bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    opacity: 0.7;
+}
+
+.project_info {
+    position: relative;
+    padding: 13rem 1.6rem 0 1.6rem;
+}
+
+.project_title {
+    font-weight: bold;
+    font-size: 3.2rem;
+    line-height: 4rem;
+    color: var(--white);
+    margin-bottom: 1rem;
+}
+
+.keyword {
+    margin-bottom: 1rem;
+    font-weight: 300;
+    font-size: 1.3rem;
+    line-height: 160%;
+    color: var(--white_02);
+}
+
+.project_btn {
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    height: 4rem;
+    margin-top: 2rem;
+    border: 1px solid var(--white);
+    color: var(--white);
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 3.7rem;
+    letter-spacing: 0.18em;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.project_btn > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: var(--white);
+}
+
+/* 프로젝트_01 제노코 종료*/
+
+/* topBtn */
+.go_top {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    width: 3rem;
+    height: 3rem;
+    z-index: 3;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 2.8rem;
+    border-radius: 1.5rem;
+    color: var(--white);
+    background: var(--dark);
+}
+
+/* 모바일 iPhone 5/SE 기준 작업 종료*/

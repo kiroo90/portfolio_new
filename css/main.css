@@ -1,5 +1,6 @@
 :root {
     --white: #FDFDFD;
+    --white_02: #E8E8E8;
     --dark: #2e2e2e;
     --gray: #5D5D5D;
 }
@@ -25,6 +26,12 @@
 /* 모바일 iPhone 5/SE 기준 작업 */
 
 /* 메인 페이지 */
+.header.on {
+    background: var(--dark);
+    font-size: 1.2rem;
+    height: 4rem;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -34,9 +41,11 @@
     height: 6rem;
     font-size: 1.3rem;
     font-weight: bold;
+    z-index: 10;
+    transition: 0.3s;
 }
 
-.header_logo {
+.header_logo > a {
     margin-left: 1.6rem;
     color: var(--white);
 }
@@ -143,6 +152,7 @@
     top: 0;
     width: 100%;
     height: 100vh;
+    z-index: 20;
 }
 
 .modal_container.on .close {
@@ -643,13 +653,18 @@ textarea:focus::placeholder {
         margin-right: 13rem;
     }
 
+    
     .header_nav__item > a {
         padding: 1rem;
         color: var(--white);
     }
-
+    
     .header_nav__item:nth-child(1) > a {
         margin-right: 6rem;
+    }
+    
+    .header_nav__item > a:hover {
+        color: var(--dark);
     }
 
     .main_info {
@@ -709,6 +724,7 @@ textarea:focus::placeholder {
         height: 73rem;
     }
     .modal_container.on .close {
+        cursor: pointer;
         transition:0.3s
     }
 
