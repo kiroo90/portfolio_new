@@ -103,6 +103,15 @@
 }
 /* topBtn 종료*/
 
+/* animation  */
+.act {
+    animation: opacity 1.6s linear 1 2s both;
+}
+
+.actBtn {
+    animation: opacity 1.6s linear 1 2.6s both;
+}
+
 /* 모바일 iPhone 5/SE 기준 작업 종료*/
 
 
@@ -319,3 +328,14 @@
     /* topBtn 종료*/
 }
 /* 데스크톱 종료 */
+
+
+/* Animation */
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
