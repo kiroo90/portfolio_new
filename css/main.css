@@ -403,6 +403,13 @@ textarea:focus::placeholder {
 
 /* iPad  */
 @media (min-width:740px) {
+
+    .header.on {
+        background: #000;
+        font-size: 1.4rem;
+        height: 5rem;
+    }
+
     .header {
         font-size: 1.6rem;
     }    
@@ -662,10 +669,6 @@ textarea:focus::placeholder {
     .header_nav__item:nth-child(1) > a {
         margin-right: 6rem;
     }
-    
-    .header_nav__item > a:hover {
-        color: var(--dark);
-    }
 
     .main_info {
         display: flex;
@@ -805,5 +808,5 @@ textarea:focus::placeholder {
     }
 
     /* contact 모달 종료 */
-
 }
+/* 데스크톱 종료*/

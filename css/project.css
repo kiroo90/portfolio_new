@@ -1,27 +1,28 @@
 /* 모바일 iPhone 5/SE 기준 작업 */
 
-/* 프로젝트_01 제노코 */
+/* 프로젝트 */
 .project_conteiner {
     position: relative;
     width: 100%;
     height: 100vh;
 }
 
+/* 프로젝트_01 */
 .genohco {
     background: url(../img/m_project_01.jpg) 50% 0% no-repeat;
     background-size: cover;
 }
-
+/* 프로젝트_02 */
 .sotonghotline {
     background: url(../img/m_project_02.jpg) 50% 0% no-repeat;
     background-size: cover;
 }
-
+/* 프로젝트_03 */
 .vibe {
     background: url(../img/m_project_03.jpg) 50% 0% no-repeat;
     background-size: cover;
 }
-
+/* 프로젝트_04 */
 .mibs {
     background: url(../img/m_project_04.jpg) 50% 0% no-repeat;
     background-size: cover;
@@ -83,7 +84,7 @@
     color: var(--white);
 }
 
-/* 프로젝트_01 제노코 종료*/
+/* 프로젝트 종료*/
 
 /* topBtn */
 .go_top {
@@ -100,5 +101,221 @@
     color: var(--white);
     background: var(--dark);
 }
+/* topBtn 종료*/
 
 /* 모바일 iPhone 5/SE 기준 작업 종료*/
+
+
+/* iPhone 6 ~ iPhone X */
+@media (min-width:375px) {
+
+    /* 프로젝트 */
+    .project_info {
+        position: relative;
+        padding: 13rem 1.6rem 0 1.6rem;
+    }
+
+    .project_title {
+        font-size: 4rem;
+        line-height: 4.8rem;
+        margin-bottom: 1.4rem;
+    }
+
+    .keyword {
+        font-size: 1.4rem;
+    }
+
+    .project_btn {
+        height: 4.4rem;
+        line-height: 4.2rem;
+    }
+    /* 프로젝트 종료*/
+
+    /* topBtn */
+    .go_top {
+        right: 2rem;
+        bottom: 2rem;
+        width: 3.6rem;
+        height: 3.6rem;
+        line-height: 3.4rem;
+        border-radius: 1.8rem;
+    }
+    /* topBtn 종료*/
+}
+/* iPhone 6 ~ iPhone X 종료 */
+
+/* iPad  */
+@media (min-width:740px) {
+
+    /* 프로젝트 */
+    .project_info {
+        position: relative;
+        padding: 24rem 1.6rem 0 1.6rem;
+    }
+
+    /* 프로젝트_01 */
+    .genohco {
+        background: url(../img/p_project_01.jpg) 50% 0% no-repeat;
+        background-size: cover;
+    }
+    /* 프로젝트_02 */
+    .sotonghotline {
+        background: url(../img/p_project_02.jpg) 50% 0% no-repeat;
+        background-size: cover;
+    }
+    /* 프로젝트_03 */
+    .vibe {
+        background: url(../img/p_project_03.jpg) 50% 0% no-repeat;
+        background-size: cover;
+    }
+    /* 프로젝트_04 */
+    .mibs {
+        background: url(../img/p_project_04.jpg) 50% 0% no-repeat;
+        background-size: cover;
+    }
+
+    .project_title {
+        font-size: 7rem;
+        line-height: 8.8rem;
+        margin-bottom: 2rem;
+    }
+
+    .keyword {
+        margin-bottom: 4.6rem;
+        font-size: 2rem;
+    }
+
+    .project_btn {
+        display: block;
+        max-width: 24rem;
+        height: 5rem;
+        line-height: 4.8rem;
+        font-size: 1.6rem;
+    }
+    /* 프로젝트 종료*/
+
+    /* topBtn */
+    .go_top {
+        right: 3rem;
+        bottom: 3rem;
+        width: 4.6rem;
+        height: 4.6rem;
+        line-height: 4.4rem;
+        font-size: 2rem;
+        border-radius: 2.3rem;
+    }
+    /* topBtn 종료*/
+}
+
+/* iPad 종료 */
+
+
+/* iPad Pro */
+@media(min-width:1024px) {
+    /* 프로젝트 */
+    .project_info {
+        position: relative;
+        padding: 30rem 6rem 0 6rem;
+    }
+
+    .project_title {
+        font-size: 9.6rem;
+        line-height: 11.4rem;
+        margin-bottom: 4rem;
+    }
+
+    .keyword {
+        margin-bottom: 4.6rem;
+        font-size: 2.4rem;
+    }
+
+    .project_btn {
+        max-width: 30rem;
+        height: 6rem;
+        line-height: 6rem;
+        font-size: 2rem;
+    }
+    /* 프로젝트 종료*/
+
+    /* topBtn */
+    .go_top {
+        right: 4rem;
+        bottom: 3rem;
+        width: 5.4rem;
+        height: 5.4rem;
+        line-height: 5.4rem;
+        border-radius: 2.7rem;
+    }
+    /* topBtn 종료*/
+}
+
+/* iPad Pro 종료 */
+
+/* 데스크톱 */
+@media(min-width:1200px) {
+    /* 프로젝트 */
+    .project_info {
+        position: relative;
+        padding: 18rem 6rem 0rem 20rem;
+    }
+
+    /* 프로젝트_01 */
+    .genohco {
+        background: url(../img/project_01.jpg) 50% 0% no-repeat;
+        background-size: cover;
+    }
+    /* 프로젝트_02 */
+    .sotonghotline {
+        background: url(../img/project_02.jpg) 50% 0% no-repeat;
+        background-size: cover;
+    }
+    /* 프로젝트_03 */
+    .vibe {
+        background: url(../img/project_03.jpg) 50% 0% no-repeat;
+        background-size: cover;
+    }
+    /* 프로젝트_04 */
+    .mibs {
+        background: url(../img/project_04.jpg) 50% 0% no-repeat;
+        background-size: cover;
+    }
+    
+    .project_title {
+        margin-bottom: 3rem;
+    }
+
+    .keyword {
+        margin-bottom: 3rem;
+        font-size: 2.4rem;
+    }
+
+    .project_btn {
+        max-width: 35rem;
+        height: 7rem;
+        margin-top: 3.8rem;
+        line-height: 6.8rem;
+        transition: 0.4s;
+    }
+
+    .project_btn:hover {
+        background: var(--white);
+    }
+
+    .project_btn:hover > a {
+        color: var(--dark);
+    }
+
+    /* 프로젝트 종료*/
+
+    /* topBtn */
+    .go_top {
+        right: 4rem;
+        bottom: 3rem;
+        width: 5.4rem;
+        height: 5.4rem;
+        line-height: 5.4rem;
+        border-radius: 2.7rem;
+    }
+    /* topBtn 종료*/
+}
+/* 데스크톱 종료 */
