@@ -21,7 +21,7 @@
     * 예전 포트폴리오 디자인 페이지를 기반으로 새롭게 구현
     * 디자인 클릭시 modal로 크게 볼수있도록 만들었다.
     * slick.js , masonry.js 사용 (반응형 완료)
-        > 많은 이미지를 제어하기 위해서 window load 방식을 사용
+        > 많은 이미지를 제어하기 위해서 window load 방식을 사용<br/>
         > masonry는 load/resize 반응형 적용 <br/>
         과부하를 막기 위해 setTimeout으로 시간차를 줬다.
         ```javascript
@@ -29,7 +29,7 @@
            setTimeout(()=>{
                masonryMedia();
            },200);
-        })
+        });
         ```
     * 매번 디자인들을 랜덤한 순서로 페이지에 뿌려준다.
     * ScrollReveal을 사용하여 스크롤 효과 적용
