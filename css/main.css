@@ -685,6 +685,7 @@ textarea:focus::placeholder {
 
     .info_box {
         width: 50%;
+        max-width: 71rem;
         margin-top: 23.2rem;;
     }
 

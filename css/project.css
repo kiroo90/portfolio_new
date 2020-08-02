@@ -12,11 +12,13 @@
     background: url(../img/m_project_01.jpg) 50% 0% no-repeat;
     background-size: cover;
 }
+
 /* 프로젝트_02 */
 .sotonghotline {
     background: url(../img/m_project_02.jpg) 50% 0% no-repeat;
     background-size: cover;
 }
+
 /* 프로젝트_03 */
 .vibe {
     background: url(../img/m_project_03.jpg) 50% 0% no-repeat;
@@ -27,6 +29,14 @@
     background: url(../img/m_project_04.jpg) 50% 0% no-repeat;
     background-size: cover;
 }
+
+/* 스크롤시 visibility 삭제 */
+.mibs_h,
+.vibe_h,
+.sotong_h {
+    visibility: hidden;
+}
+
 
 .black_bg {
     position: absolute;
@@ -88,6 +98,7 @@
 
 /* topBtn */
 .go_top {
+    display: none;
     position: fixed;
     right: 1rem;
     bottom: 1rem;
@@ -100,16 +111,17 @@
     border-radius: 1.5rem;
     color: var(--white);
     background: var(--dark);
+    cursor: pointer;
 }
 /* topBtn 종료*/
 
 /* animation  */
 .act {
-    animation: opacity 1.6s linear 1 2s both;
+    animation: opacity 1.6s linear 1 2.2s both;
 }
 
 .actBtn {
-    animation: opacity 1.6s linear 1 2.6s both;
+    animation: opacity 1.6s linear 1 2.8s both;
 }
 
 /* 모바일 iPhone 5/SE 기준 작업 종료*/
