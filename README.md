@@ -22,8 +22,7 @@
     * 디자인 클릭시 modal로 크게 볼수있도록 만들었다.
     * slick.js , masonry.js 사용 (반응형 완료)
         > 많은 이미지를 제어하기 위해서 window load 방식을 사용<br/>
-        > masonry는 load/resize 반응형 적용 <br/>
-        과부하를 막기 위해 setTimeout으로 시간차를 줬다.
+        > masonry는 load/resize 반응형 적용 과부하를 막기 위해 setTimeout으로 시간차를 줬다.
         ```javascript
         $(window).resize(()=>{
            setTimeout(()=>{
