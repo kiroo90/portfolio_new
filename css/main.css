@@ -648,7 +648,7 @@ textarea:focus::placeholder {
 
 /* iPad Pro 종료 */
 
-/* 데스크톱 */
+/* Desktop */
 @media(min-width:1400px) {
     /* 메인 페이지 */
     .header_logo {
@@ -810,4 +810,4 @@ textarea:focus::placeholder {
 
     /* contact 모달 종료 */
 }
-/* 데스크톱 종료*/
+/* Desktop 종료*/

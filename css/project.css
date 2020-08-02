@@ -1,7 +1,7 @@
 /* 모바일 iPhone 5/SE 기준 작업 */
 
 /* 프로젝트 */
-.project_conteiner {
+.conteiner {
     position: relative;
     width: 100%;
     height: 100vh;
@@ -48,12 +48,12 @@
     opacity: 0.7;
 }
 
-.project_info {
+.info {
     position: relative;
     padding: 13rem 1.6rem 0 1.6rem;
 }
 
-.project_title {
+.title {
     font-weight: bold;
     font-size: 3.2rem;
     line-height: 4rem;
@@ -131,12 +131,12 @@
 @media (min-width:375px) {
 
     /* 프로젝트 */
-    .project_info {
+    .info {
         position: relative;
         padding: 13rem 1.6rem 0 1.6rem;
     }
 
-    .project_title {
+    .title {
         font-size: 4rem;
         line-height: 4.8rem;
         margin-bottom: 1.4rem;
@@ -169,7 +169,7 @@
 @media (min-width:740px) {
 
     /* 프로젝트 */
-    .project_info {
+    .info {
         position: relative;
         padding: 24rem 1.6rem 0 1.6rem;
     }
@@ -195,7 +195,7 @@
         background-size: cover;
     }
 
-    .project_title {
+    .title {
         font-size: 7rem;
         line-height: 8.8rem;
         margin-bottom: 2rem;
@@ -234,12 +234,12 @@
 /* iPad Pro */
 @media(min-width:1024px) {
     /* 프로젝트 */
-    .project_info {
+    .info {
         position: relative;
         padding: 30rem 6rem 0 6rem;
     }
 
-    .project_title {
+    .title {
         font-size: 9.6rem;
         line-height: 11.4rem;
         margin-bottom: 4rem;
@@ -272,10 +272,10 @@
 
 /* iPad Pro 종료 */
 
-/* 데스크톱 */
+/* Desktop */
 @media(min-width:1200px) {
     /* 프로젝트 */
-    .project_info {
+    .info {
         position: relative;
         padding: 18rem 6rem 0rem 20rem;
     }
@@ -301,7 +301,7 @@
         background-size: cover;
     }
     
-    .project_title {
+    .title {
         margin-bottom: 3rem;
     }
 
@@ -339,7 +339,7 @@
     }
     /* topBtn 종료*/
 }
-/* 데스크톱 종료 */
+/* Desktop 종료 */
 
 
 /* Animation */
