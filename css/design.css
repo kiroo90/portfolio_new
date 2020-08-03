@@ -18,7 +18,7 @@
 
 /* slick.js styling */
 .slide_item {
-    width: 100%;
+    width: 80%;
     max-width: 100rem;
     height: 100%;
     text-align: center;
@@ -225,6 +225,11 @@
 
 /* iPad  */
 @media (min-width:740px) {
+
+    .slide_item {
+        width: 100%;
+    }
+    
     .slide_item img {
         margin: 0 1rem;
     }

@@ -123,20 +123,20 @@
 
 .btn {
     display: inline-block;
-    width: 100%;
-    height: 4.8rem;
-    margin-top: 2rem;
+    width: 70%;
+    height: 4rem;
+    margin-top: 1rem;
     border: 1px solid var(--white);
-    background: #f7f7f7;
-    font-size: 2rem;
-    line-height: 4.8rem;
+    background: transparent;
+    font-size: 1.4rem;
+    line-height: 3.8rem;
     letter-spacing: 0.18em;
     box-sizing: border-box;
     text-align: center;
 }
 
 .title_box > .contact_btn {
-    color: var(--dark);
+    color: var(--white);
 }
 
 /* 메인 페이지 종료 */
@@ -159,6 +159,7 @@
     position: absolute;
     top: 1.4rem;
     right: 1.4rem;
+    padding: 1rem;
     font-size: 1.8rem;
     color: var(--white);
     z-index: 2;
@@ -181,7 +182,7 @@
 }
 
 .about_me img {
-    width: 50%;
+    width: 40%;
 }
 
 .about_me dl {
@@ -358,16 +359,14 @@ textarea:focus::placeholder {
         line-height: 5.6rem;
     }
 
-    .info_box {
-        margin-top: 4rem;
-    }
-
     .info_box > p {
         padding: 3rem 2rem;
     }
 
     .btn {
-        margin-top: 4rem;
+        height: 4.8rem;
+        font-size: 1.6rem;
+        line-height: 4.8rem;
     }
 
     /* contact 모달 */
@@ -376,7 +375,7 @@ textarea:focus::placeholder {
     }
 
     .about_me dl {
-        width: 50%;
+        width: 40%;
     }
 
     .about_me dd {
@@ -389,7 +388,6 @@ textarea:focus::placeholder {
     }
 
     .button-success {
-        height: 4rem;
         margin: 0.8rem 0 0 0;
     }
 
